@@ -181,7 +181,7 @@ ul li a:hover {
   color: var(--webGray);
   text-transform: capitalize;
   font-size: 12px;
-  width: 100%;
+  width: 100% !important;
   padding-inline: 30%;
   margin: 0 auto;
   text-align: center;
