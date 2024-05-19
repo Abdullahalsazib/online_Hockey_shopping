@@ -80,7 +80,7 @@ ul li a:hover {
   border-radius: 10px;
 }
 
-.hidden_nav_item{
+.hidden_nav_item {
   position: absolute;
   left: 50%;
   right: 10%;
@@ -94,18 +94,16 @@ ul li a:hover {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
-.hidden_nav_item li a{
+.hidden_nav_item li a {
   color: var(--webBlack) !important;
 }
 
-.hidden_nav_item_toggle{
-  transition: all .3s ease-in;
+.hidden_nav_item_toggle {
+  transition: all 0.3s ease-in;
   transform: translate(-50%, 5%);
 }
-
-
 
 .myCoursole {
   /* background: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.174)), url('./Images/1.png'); */
@@ -183,12 +181,14 @@ ul li a:hover {
   color: var(--webGray);
   text-transform: capitalize;
   font-size: 12px;
-  width: 40%;
+  width: 100%;
+  padding-inline: 30%;
   margin: 0 auto;
+  text-align: center;
 }
 @media (max-width: 576px) {
   .home_title p {
-    width: 100% !important;
+    padding-inline: 0% !important;
   }
 }
 
